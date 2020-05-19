@@ -1,6 +1,6 @@
 # Put your custom commands here that should be executed once
 # the system init finished. By default this file does nothing.
-/root/ssh.sh
+#/root/ssh.sh
 echo "START WATCHDOG   =====" > /dev/ttyS0
 echo 300 > /proc/sys/kernel/panic
 echo 0 > /proc/sys/kernel/panic_on_oops
